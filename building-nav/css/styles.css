@@ -1,4 +1,4 @@
-.box{
+/* .box{
     height: 100px;
     width: 200px;
     border: 1px solid black;
@@ -28,4 +28,31 @@
 .right {float:right;}
 .clear-left {clear:left;}
 .clear-right {clear:right;}
-.clear-both {clear:both;}
+.clear-both {clear:both;} */
+/* nav styles */
+.body{
+    margin: 0;
+    display: block;
+}
+
+.main-nav{
+    height: 75px;
+    background-color: gray;
+}
+.logo{
+    height: 56px;
+    padding: 10px;
+}
+
+.nav-list{
+    float: right;
+}
+ li{
+     color:white;
+     float:left;
+     padding: 14px 16px;
+     list-style-type: none;
+ }
+ .center{
+     text-align: center;
+ }
