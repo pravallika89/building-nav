@@ -1,4 +1,4 @@
-.box{
+/* .box{
     height: 100px;
     width: 200px;
     border: 1px solid black;
@@ -28,4 +28,54 @@
 .right {float:right;}
 .clear-left {clear:left;}
 .clear-right {clear:right;}
-.clear-both {clear:both;}
+.clear-both {clear:both;} */
+
+body {
+    margin:0;
+}
+
+.main-nav{
+    height:75px;
+    background-color: orange;
+    }
+    
+    .main-nav:hover{
+        height:85px;
+    }
+    .logo {
+        height:56px;
+        padding:10px;
+    }
+    .nav-list{
+        float: right;
+    }
+    
+    li{
+        color:green;
+        float:left;
+        padding: 14px 16px;
+        list-style-type:none;
+    }
+    .center{
+        text-align: center;
+    } 
+
+.nav-list{
+    float:right;
+    list-style-type: none;
+}
+
+li{
+color:#fff;
+float:left;
+padding:14px 16px;
+}
+
+li:hover{
+    font-size:30px;
+    padding:5px 16px;
+}
+
+.logo:hover{
+    height:66px;
+}
